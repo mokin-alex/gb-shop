@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.center {
+    padding: 0 calc(50% - 570px);
+}
+
+.header {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.17);
+    border: 1px solid #ececec;
+    background-color: #ffffff;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__left {
+    display: flex;
+    align-items: center;
+}
+
+.header__right {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.header__form {
+    display: flex;
+    align-items: center;
+    margin-left: 37px;
+}
+
+.logo__img {
+    margin-right: 13px;
+}
+
+.header__cart {
+    margin-right: 26px;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.menu__link {
+    color: #222222;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 20px;
+    display: block;
+}
+
+.promo {
+    background-color: #e8e8e8;
+    height: 613px;
+}
+
+.promo__content {
+    background-image: url(img/Layer_24.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+        background-position: 0 -50px;
+        display: flex;
+    align-items: center;
+}
+
+.promo__text {
+    border-left: 12px solid #f16d7f;
+    padding-left: 12px;
+}
