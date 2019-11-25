@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>MAW DZ 1</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -11,11 +11,11 @@
 <body>
     <header class="center header">
         <div class="header__left">
-            <a class="logo" href=""><img class="logo__img" src="img/logo.png" alt="logo">BRAND</a>
+            <a class="logo" href=""><img class="logo__img" src="img/logo.png" alt="logo"><span class="logo__txt">BRAN</span><span class="logo__txt logo__txt_color">D</span> </a>
             <form class="header__form" action="#">
-                <div>Browse</div>
-                <input type="text">
-                <button type="submit"><img src="img/search.png" alt="search"></button>
+                <div class="head form_size">Browse</div>
+                <input class="form_size" type="text" placeholder="Search for Item..." size="38">
+                <button class="form_size" type="submit"><img src="img/search.png" alt="search"></button>
             </form>
         </div>
         <div class="header__right">
@@ -37,8 +37,8 @@
     <div class="promo center">
         <div class="promo__content">
             <div class="promo__text">
-                <p>THE BRAND</p>
-                <p>OF LUXERIOUS FASHION</p>
+                <p class="promo__text_big">THE BRAND</p>
+                <span class="promo__text_simple" >OF LUXERIOUS </span> <span class="promo_text promo__text_color">FASHION</span>
             </div>
         </div>
     </div>
@@ -46,14 +46,18 @@
         <div class="banners-left">
             <div class="banner banner__img1">
                 <div class="banner__text">
-                    <p class="badge">Hot deal</p>
-                    <p class="badge badge_big">FOR MEN</p>
+                    <a href="#" class="banner__link">
+                        <p class="badge">Hot deal</p>
+                        <p class="badge badge_big">FOR MEN</p>
+                    </a>
                 </div>
             </div>
             <div class="banner banner__img3">
                 <div class="banner__text">
-                    <p class="badge">Luxirous & Trendy</p>
-                    <p class="badge badge_big">ACCESORIES</p>
+                    <a href="#" class="banner__link">
+                        <p class="badge">Luxirous & Trendy</p>
+                        <p class="badge badge_big">ACCESORIES</p>
+                    </a>
                 </div>
             </div>
         </div>
@@ -68,10 +72,10 @@
             </div>
             <div class="banner banner__img4">
                 <div class="banner__text">
-                    <a href="#" class="banner__link"><img src="./img/Layer_31.jpg" alt="banner" class="banner__img">
-                    </a>
+                    <a href="#" class="banner__link">
                         <p class="badge">New Arrivals</p>
                         <p class="badge badge_big">FOR KIDS</p>
+                    </a>
                 </div>
             </div>
         </div>
@@ -82,6 +86,7 @@
         </div>
         <div class="fetured-items-content">
             <div class="items">
+                <img src="./img/cart.svg" alt="cart" class="items__img_hover">
                 <a href="#" class="items__link">
                     <img src="./img/Layer_2.jpg" alt="product" class="items__img">
                     <p class="items__product">Mango People T-shirt</p>
@@ -89,6 +94,7 @@
                 </a>
             </div>
             <div class="items">
+                <img src="./img/cart.svg" alt="cart" class="items__img_hover">
                 <a href="#" class="items__link">
                     <img src="./img/Layer_3.jpg" alt="product" class="items__img">
                     <p class="items__product">Mango People T-shirt</p>
@@ -96,6 +102,7 @@
                 </a>
             </div>
             <div class="items">
+                <img src="./img/cart.svg" alt="cart" class="items__img_hover">
                 <a href="#" class="items__link">
                     <img src="./img/Layer_4.jpg" alt="product" class="items__img">
                     <p class="items__product">Mango People T-shirt</p>
@@ -103,6 +110,7 @@
                 </a>
             </div>
             <div class="items">
+                <img src="./img/cart.svg" alt="cart" class="items__img_hover">
                 <a href="#" class="items__link">
                     <img src="./img/Layer_5.jpg" alt="product" class="items__img">
                     <p class="items__product">Mango People T-shirt</p>
@@ -110,6 +118,7 @@
                 </a>
             </div>
             <div class="items">
+                <img src="./img/cart.svg" alt="cart" class="items__img_hover">
                 <a href="#" class="items__link">
                     <img src="./img/Layer_6.jpg" alt="product" class="items__img">
                     <p class="items__product">Mango People T-shirt</p>
@@ -117,6 +126,7 @@
                 </a>
             </div>
             <div class="items">
+                <img src="./img/cart.svg" alt="cart" class="items__img_hover">
                 <a href="#" class="items__link">
                     <img src="./img/Layer_7.jpg" alt="product" class="items__img">
                     <p class="items__product">Mango People T-shirt</p>
@@ -124,6 +134,7 @@
                 </a>
             </div>
             <div class="items">
+                <img src="./img/cart.svg" alt="cart" class="items__img_hover">
                 <a href="#" class="items__link">
                     <img src="./img/Layer_8.jpg" alt="product" class="items__img">
                     <p class="items__product">Mango People T-shirt</p>
@@ -131,11 +142,15 @@
                 </a>
             </div>
             <div class="items">
+                <img src="./img/cart.svg" alt="cart" class="items__img_hover">
                 <a href="#" class="items__link">
                     <img src="./img/Layer_9.jpg" alt="product" class="items__img">
                     <p class="items__product">Mango People T-shirt</p>
                     <p class="items__price">$52.00</p>
                 </a>
+            </div>
+            <div class="browse">
+                <a href="#" class="button">Browse All Product</a>
             </div>
         </div>
 

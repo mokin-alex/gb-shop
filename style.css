@@ -40,10 +40,22 @@ a {
     align-items: center;
 }
 
+
 .header__form {
     display: flex;
     align-items: center;
     margin-left: 37px;
+}
+
+.logo__txt {
+    color: #222222;
+    font-size: 19px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.logo__txt_color {
+    color: #f16d7f;
 }
 
 .logo__img {
@@ -52,6 +64,23 @@ a {
 
 .header__cart {
     margin-right: 26px;
+}
+
+.head {
+    color: #222222;
+    font-size: 14px;
+    font-weight: 300;
+
+    letter-spacing: 0.35px;
+    background-color: #f6f6f6;
+    padding: 10px;
+    20px;
+    outline: 1px solid #888;
+}
+
+
+.form_size {
+    padding: 8px;
 }
 
 .menu {
@@ -86,7 +115,23 @@ a {
 .promo__text {
     border-left: 12px solid #f16d7f;
     padding-left: 12px;
+    color: #222222;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 40px;
+    font-weight: 700;
 }
+
+
+.promo__text_big {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.promo__text_color {
+    color: #f16d7f;
+}
+
 
 .category {
     margin-top: 98px;
@@ -125,9 +170,6 @@ a {
 }
 
 
-
-
-
 .banner__text {
     display: inline-block;
     background-color: #ffffff;
@@ -164,6 +206,7 @@ a {
 .banner__link {
     height: 100%;
     width: 100%;
+    clear: both;
 }
 
 .header-fetured-items {
@@ -215,23 +258,58 @@ a {
     font-weight: 700;
     text-transform: uppercase;
     padding-bottom: 20px;
-        margin-bottom: 40px;
+    margin-bottom: 40px;
 }
 
-.items__img {
-    background-image: url(./img/cart_wite.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    z-index: 1;
-}
 
-.items__img:hover {
-    opacity: 30%;
+.items__img_hover {
+    position: absolute;
+    padding-top: 126px;
+    padding-left: 103px;
     z-index: -3;
-    /*    background-color: #595757;*/
+}
+
+.items__link:hover .items__img {
+    opacity: 0.2;
+    z-index: -3;
+}
+
+.items__link:hover .items__img_hover {
+    opacity: 1;
+    z-index: 3;
 }
 
 .items:hover {
-    /*        box-shadow: 0px 0px 5px #212121;*/
-    border-bottom: 1px solid #ccc
+    position: relative;
 }
+
+.clearfix::after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.browse {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 112px;
+}
+
+
+
+.button {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #f16d7f;
+
+    letter-spacing: 0.4px;
+    padding: 12px 20px;
+}
+
+
