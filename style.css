@@ -313,3 +313,80 @@ a {
 }
 
 
+
+.Feature {}
+
+.feature {
+    display: flex;
+    margin-bottom: 97px;
+}
+
+.feature-banner {
+    background-image: url(./img/FeatureBanner.jpg);
+    background-repeat: no-repeat;
+    height: 529px;
+    width: 767px;
+}
+
+.feature-articles {
+    background-color: #222224;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 373px;
+}
+
+.feature-aticles__h {
+    color: #fbfbfb;
+    font-size: 20px;
+    font-weight: 700;
+
+    letter-spacing: 0.5px;
+    padding-bottom: 21px;
+}
+
+.feature-aticles__txt {
+    color: #fbfbfb;
+    font-size: 14px;
+    font-weight: 300;
+
+    letter-spacing: 0.35px;
+}
+
+.feature-article {
+    display: flex;
+}
+
+.feature-aticles__img {
+    padding: 0 36px;
+}
+
+.article-text {
+    padding-right: 36px;
+}
+
+.feature-banner__h {
+    color: #ffffff;
+font-size: 54px;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 1.5px;
+}
+
+.feature-banner__h_color {
+    color: #f16d7f;
+}
+
+.feature-banner__txt {
+font-weight: 700;
+text-transform: uppercase;
+color: #ffffff;
+font-size: 32px;
+letter-spacing: 0.9px;
+}
+
+.feature-banner__link {
+    display: block;
+    padding-top: 150px;
+    padding-left: 40px;
+}
