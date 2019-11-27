@@ -119,12 +119,14 @@ a {
     letter-spacing: 1px;
     font-size: 40px;
     font-weight: 700;
+    line-height: 42px;
 }
 
 
 .promo__text_big {
     font-size: 60px;
     font-weight: 700;
+    padding-bottom: 15px;
 }
 
 .promo__text_color {
@@ -212,8 +214,9 @@ a {
     height: 150px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
+    margin-bottom: 40px;
 }
 
 .header-fetured-items__header {
@@ -302,6 +305,7 @@ a {
     justify-content: center;
     align-items: center;
     margin-bottom: 112px;
+    margin-top: 20px;
 }
 
 
@@ -640,11 +644,10 @@ a {
 
 .product__text {
     padding: 20px 0;
+    padding-left: 14px;
 }
 
 .products {
-    margin-top: 60px;
-    margin-bottom: 60px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
