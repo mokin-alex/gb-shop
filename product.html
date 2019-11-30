@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/426a3c5d03.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -42,16 +43,100 @@
         <div class="center breadcrumb__wrap">
             <div class="breacrumb__header">New Arrivals </div>
             <div class="breadcrumb-menu">
-                <a href="index.html" class="breadcrumb-menu__link">HOME / </a>
-                <a href="#" class="breadcrumb-menu__link">MAN / </a>
+                <a href="index.html" class="breadcrumb-menu__link">HOME</a>
+                <a href="#" class="breadcrumb-menu__link">MAN</a>
                 <a href="#" class="breadcrumb-menu__link">NEW ARRIVALS</a>
             </div>
         </div>
     </nav>
     <div class="content__wrap center">
-        <div class="siderbar"></div>
+        <div class="sidebar">
+            <details open>
+                <summary>
+                    <h class="sidebar-menu__header">CATEGORY</h>
+                </summary>
+                <div class="wrap-test">
+                    <ul class="sidebar-menu">
+                        <li class="sidebar-menu__list"><a href="#" class="sidebar-menu__link">Accessories</a></li>
+                        <li class="sidebar-menu__list"><a href="#" class="sidebar-menu__link">Bags</a></li>
+                        <li class="sidebar-menu__list"><a href="#" class="sidebar-menu__link">Denim</a></li>
+                        <li class="sidebar-menu__list"><a href="#" class="sidebar-menu__link">Hoodies & Sweatshirts</a></li>
+                        <li class="sidebar-menu__list"><a href="#" class="sidebar-menu__link">Jackets & Coats</a></li>
+                        <li class="sidebar-menu__list"><a href="#" class="sidebar-menu__link">Pants</a></li>
+                        <li class="sidebar-menu__list"><a href="#" class="sidebar-menu__link">Polos</a></li>
+                        <li class="sidebar-menu__list"><a href="#" class="sidebar-menu__link">Shirts</a></li>
+                        <li class="sidebar-menu__list"><a href="#" class="sidebar-menu__link">Shoes</a></li>
+                        <li class="sidebar-menu__list"><a href="#" class="sidebar-menu__link">Shorts</a></li>
+                        <li class="sidebar-menu__list"><a href="#" class="sidebar-menu__link">Sweaters & Knits</a></li>
+                        <li class="sidebar-menu__list"><a href="#" class="sidebar-menu__link">T-Shirts</a></li>
+                        <li class="sidebar-menu__list"><a href="#" class="sidebar-menu__link">Tanks</a></li>
+                    </ul>
+                </div>
+            </details>
+            <details>
+                <summary>
+                    <h class="sidebar-menu__header">BRAND</h>
+                </summary>
+                <ul class="sidebar-menu">
+                    <li class="sidebar-menu__list"><a href="#" class="sidebar-menu__link">BRAND1</a></li>
+                    <li class="sidebar-menu__list"><a href="#" class="sidebar-menu__link">BRAND2</a></li>
+                    <li class="sidebar-menu__list"><a href="#" class="sidebar-menu__link">BRAND3</a></li>
+                    <li class="sidebar-menu__list"><a href="#" class="sidebar-menu__link">BRAND4</a></li>
+                </ul>
+            </details>
+            <details>
+                <summary>
+                    <h class="sidebar-menu__header">DESIGNER</h>
+                </summary>
+                <ul class="sidebar-menu">
+                    <li class="sidebar-menu__list"><a href="#" class="sidebar-menu__link">Accessories</a></li>
+                    <li class="sidebar-menu__list"><a href="#" class="sidebar-menu__link">Bags</a></li>
+                    <li class="sidebar-menu__list"><a href="#" class="sidebar-menu__link">Denim</a></li>
+                </ul>
+            </details>
+        </div>
         <div class="products__wrap">
-            <div class="top-filter"></div>
+            <div class="top-filter">
+
+                <div class="trending top-filter__box">
+                    <h class="top-filter__h">Trending now</h>
+                    <p class="tranding__form">
+                        <a href="#" class="trending__link">Bohemian</a>
+                        <a href="#" class="trending__link">Floral</a>
+                        <a href="#" class="trending__link">Lace</a>
+                        <br>
+                        <a href="#" class="trending__link">Floral</a>
+                        <a href="#" class="trending__link">Lace</a>
+                        <a href="#" class="trending__link">Bohemian</a>
+                    </p>
+                </div>
+                <div class="size top-filter__box">
+                    <h class="top-filter__h">SIZE</h>
+                    <p>
+                        <input class="size__in" id="XXS" type="checkbox"><label class="size__lbl" for="XXS">XXS</label>
+                        <input class="size__in" id="XXS" type="checkbox"><label class="size__lbl" for="XS">XS</label>
+                        <input class="size__in" id="XXS" type="checkbox"><label class="size__lbl" for="S">S</label>
+                        <input class="size__in" id="XXS" type="checkbox"><label class="size__lbl" for="M">M</label>
+                    </p>
+                    <p>
+                        <input class="size__in" id="XXS" type="checkbox"><label class="size__lbl size__lbl_padding" for="L">L</label>
+                        <input class="size__in" id="XXS" type="checkbox"><label class="size__lbl" for="XL">XL</label>
+                        <input class="size__in" id="XXS" type="checkbox"><label class="size__lbl" for="XXL">XXL</label>
+                    </p>
+                </div>
+                <div class="price top-filter__box">
+                    <h class="top-filter__h">PRICE</h>
+                    <form oninput="result.value=(range.value)" action="#">
+                        <input class="top-filter__price" id="range" type="range" min="10" max="500" value=90 step=5 maxlength="200px">
+                        <br>
+                        <output class="top-filter__price_out" name="result" for="range">0</output>
+                    </form>
+                </div>
+            </div>
+            <div class="sort-by-box">
+                sortby
+            </div>
+
             <div class="products">
                 <div class="product">
                     <a href="#"><img src="./img/product-1.jpg" alt="product" class="product__img"> </a>
@@ -203,7 +288,7 @@
             </form>
         </div>
     </div>
-        <footer class="footer-menu center">
+    <footer class="footer-menu center">
         <div class="about">
             <a class="logo" href=""><img class="logo__img" src="img/logo.png" alt="logo"><span class="logo__txt">BRAN</span><span class="logo__txt logo__txt_color">D</span> </a>
             <div class="about__text">
