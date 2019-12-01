@@ -75,7 +75,10 @@
             </details>
             <details>
                 <summary>
+
                     <h class="sidebar-menu__header">BRAND</h>
+
+
                 </summary>
                 <ul class="sidebar-menu">
                     <li class="sidebar-menu__list"><a href="#" class="sidebar-menu__link">BRAND1</a></li>
@@ -134,7 +137,18 @@
                 </div>
             </div>
             <div class="sort-by-box">
-                sortby
+                <label class="sort-by-box__lbl" for="sortby">Sort By</label>
+                <select class="sort-by-box__sel" id="sortby">
+                    <option value="name">Name</option>
+                    <option value="price">Price</option>
+                    <option value="brand">Brand</option>
+                </select>
+                <label class="sort-by-box__lbl" for="show">Show</label>
+                <select class="sort-by-box__sel" id="show">
+                    <option value="9">09</option>
+                    <option value="12">12</option>
+                    <option value="15">15</option>
+                </select>
             </div>
 
             <div class="products">
@@ -238,7 +252,27 @@
                     </a>
                 </div>
             </div>
-            <div class="pagination"></div>
+            <nav class="pagination-nav">
+                <ul class="pagination">
+                    <li class="page-item">
+                        <a href="#" class="page-link" aria-label="Предыдущая">
+                            <span aria-hidden="true">&lt;</span>
+                        </a>
+                    </li>
+                    <li class="page-item"><a href="#" class="page-link page-link_active">1</a></li>
+                    <li class="page-item"><a href="#" class="page-link">2</a></li>
+                    <li class="page-item"><a href="#" class="page-link">3</a></li>
+                    <li class="page-item"><a href="#" class="page-link">4</a></li>
+                    <li class="page-item"><a href="#" class="page-link">5</a></li>
+                    <li class="page-item"><a href="#" class="page-link">6....20</a></li>
+                    <li class="page-item">
+                        <a href="#" class="page-link" aria-label="Следующая">
+                            <span aria-hidden="true">&gt;</span>
+                        </a>
+                    </li>
+                </ul>
+                <a href="#" class="page-link__button">View All</a>
+            </nav>
         </div>
     </div>
     <section class="feature-box">
