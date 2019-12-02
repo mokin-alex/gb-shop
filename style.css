@@ -684,6 +684,7 @@ a {
     font-weight: 700;
     line-height: 20px;
     text-transform: uppercase;
+    padding: 0 3px;
 
 }
 
@@ -1135,4 +1136,13 @@ details .sidebar-caret-up {
 
     letter-spacing: 0.35px;
     padding-left: 8px;
+}
+
+.sidebar-menu__link:hover {
+        color: #f16d7f;
+    
+}
+
+.trending__link:hover {
+        color: #f16d7f;
 }
