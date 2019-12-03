@@ -1146,3 +1146,52 @@ details .sidebar-caret-up {
 .trending__link:hover {
         color: #f16d7f;
 }
+
+.slider {
+    height: 777px;
+    background-color: #f7f7f7;
+    background-image: url(img/w-single-prod-0.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+}
+
+.slider-pagination {
+    display: flex;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    width: 47px;
+    height: 47px;
+background-color: #d8d8d8;
+}
+
+.slider-pagination__link {
+        color: #ffffff;
+font-size: 24px;
+font-weight: 400;
+    padding-top: 10px;
+}
+
+.single-product {
+    height: 730px;
+    width: 1140px;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+    position: absolute;
+    top: 690px;
+    left: 600px;
+}
+
+.slider__foo {
+    background-color: #fff;
+    height: 86px;
+    width: 1140px;
+    position: absolute;
+    top: 400px;
+    left: 400px;
+}
