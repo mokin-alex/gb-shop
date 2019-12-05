@@ -37,14 +37,50 @@
                     </li>
                 </ul>
                 <input class="form_size" type="text" placeholder="Search for Item..." size="38">
-                <button class="form_size" type="submit"><img src="img/search.png" alt="search"></button>
+                <button class="header__button form_size" type="submit"><img src="img/search.png" alt="search"></button>
             </form>
         </div>
         <div class="header__right">
-
-            <a href="#" class="header-cart__link">
-                <img class="header__cart" src="img/cart.svg" alt="cart">
-            </a>
+            <div class="header-cart__wrap">
+                <ul class="header-cart__menu">
+                    <li class="header-cart__list">
+                        <a href="#" class="header-cart__link">
+                            <img class="header__cart" src="img/cart.svg" alt="cart">
+                        </a>
+                        <div class="drop header-cart__drop">
+                            <div class="cart-item">
+                                <img src="img/prod-in-cart-1.jpg" alt="product" class="cart-item__img">
+                                <div class="cart-item__txt">
+                                    <h class="cart-item__h">Rebox Zane</h>
+                                    <p class="items__stars">
+                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+                                    </p>
+                                    <p class="cart-item__quantity"> 1 X $250</p>
+                                </div>
+                                <div class="cart-item__times"><a class="cart-item__times-link" href="#"><i class="fas fa-times-circle"></i></a></div>
+                            </div>
+                            <div class="cart-item">
+                                <img src="img/prod-in-cart-2.jpg" alt="product" class="cart-item__img">
+                                <div class="cart-item__txt">
+                                    <h class="cart-item__h">Rebox Zane</h>
+                                    <p class="items__stars">
+                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+                                    </p>
+                                    <p class="cart-item__quantity"> 1 X $250</p>
+                                </div>
+                                <div class="cart-item__times"><a class="cart-item__times-link" href="#"><i class="fas fa-times-circle"></i></a></div>
+                            </div>
+                            <div class="cart-total">
+                                <p class="cart-total__h">TOTAL:</p>
+                                <p class="cart-total__price">$500</p>
+                            </div>
+                            <div class="cart-checkout"><a href="#" class="cart-checkout__link">Checkout</a></div>
+                            <div class="cart-gotocart"><a href="#" class="cart-gotocart__link">Go to cart</a></div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="header-cart__count">5</div>
+            </div>
             <a href="#" class="button">My Account<span class="acc-caret-down"><i class="fas fa-caret-down"></i></span></a>
         </div>
     </header>

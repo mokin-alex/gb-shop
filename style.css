@@ -1056,6 +1056,8 @@ details .sidebar-caret-up {
     letter-spacing: 0.35px;
     background-color: #f6f6f6;
     outline: 1px solid #888;
+    padding-bottom: 7px;
+    padding-top: 9px;
 }
 
 .head__menu {
@@ -1515,3 +1517,6 @@ details .sidebar-caret-up {
 
 }
 
+.header__button {
+    padding: 7px;
+}
