@@ -1,5 +1,8 @@
 @import "vars"
 
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,900&display=swap')
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap')
+
 *
   margin: 0
   padding: 0
@@ -620,7 +623,7 @@ a
   align-items: center
   color: $SiteColor
   font-size: 24px
-  font-weight: 400
+  font-weight: 900
   line-height: 20px
   text-transform: uppercase
 
@@ -1451,11 +1454,186 @@ details .sidebar-caret-up
   text-transform: uppercase
   padding: 12px 70px
 
-  .cart-gotocart__link
-  color: #4a4a4a
-  font-size: 14px
-  font-weight: 700
-  text-transform: uppercase
-  padding: 12px 70px
+.cart-items-header
+  display: flex
+  margin-top: 90px
+  &__h
+    width: 150px
+    color: #222222
+    font-size: 13px
+    font-weight: 700
+    text-transform: uppercase
+    letter-spacing: -0.2px
+    border-bottom: 1px solid #eaeaea
+    padding-bottom: 20px
+    text-align: center
+    &_1
+      flex-grow: 1
+      text-align: left
+.cart-items-box
+  display: flex
+  margin-top: 25px
+  padding-bottom: 25px
+  border-bottom: 1px solid #eaeaea
+  &__block
+    width: 150px
+    display: flex
+    align-items: center
+    color: #656565
+    font-size: 13px
+    font-weight: 400
+    justify-content: center
+    &_1
+      flex-grow: 1
+      justify-content: flex-start
+  &__img
+    width: 100px
+    padding-right: 10px
+  &__h
+    color: #222222
+    font-size: 13px
+    font-weight: 400
+    text-transform: uppercase
+    padding: 10px 0 38px 0
+
+    display: block
+  &__txt
+    color: #575757
+    font-size: 13px
+    font-weight: 400
+    &_vol
+      color: #6f6e6e
+      font-weight: 300
+      padding-left: 10px
+  &__quantity
+      width: 30%
+      padding: 8px
+      margin: 16px 0
+      color: #656565
+      font-size: 13px
+      font-weight: 400
+  &__shipping
+    text-transform: uppercase
+
+.shopping
+  display: flex
+  justify-content: space-between
+  margin: 44px 0 64px 0
+  &__button
+    border: 1px solid #eaeaea
+    padding: 20px 30px
+    color: #4a4a4a
+    font-size: 14px
+    font-weight: 700
+    text-transform: uppercase
+    transition: all 0.8s
+  &__button:hover
+    color: #eaeaea
+    background-color: $SiteColor
+
+.shipping-coupon-check
+  display: flex
+  justify-content: space-between
+  margin-bottom: 80px
+.shipping
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  width: 355px
+  &__h
+    color: #222222
+    font-size: 16px
+    font-weight: 700
+    text-transform: uppercase
+    display: block
+    margin-bottom: 10px
+  &__field
+     //color: #b1b1b1
+     font-size: 13px
+     font-weight: 300
+     padding: 10px 0
+     margin: 10px 0
+     width: 355px
+     border: 1px solid #eaeaea
+  &__button
+      color: #4a4a4a
+      font-size: 11px
+      font-weight: 700
+      text-transform: uppercase
+      padding: 10px
+      background-color: #ffffff
+      border: 1px solid #eaeaea
+      transition: all 0.8s
+  &__button:hover
+       background-color: $SiteColor
+
+.coupon
+  width: 355px
+  &__h
+    color: #222222
+    font-size: 16px
+    font-weight: 700
+    text-transform: uppercase
+    display: block
+    margin-bottom: 10px
+  &__field
+    font-size: 13px
+    font-weight: 300
+    padding: 10px 0
+    margin: 10px 0
+    width: 355px
+    border: 1px solid #eaeaea
+  &__text
+    color: #000000
+    font-size: 14px
+    font-weight: 300
+  &__button
+    color: #4a4a4a
+    font-size: 11px
+    font-weight: 700
+    text-transform: uppercase
+    padding: 10px
+    background-color: #ffffff
+    transition: all 0.8s
+    border: 1px solid #eaeaea
+  &__button:hover
+    background-color: $SiteColor
+
+.check
+  background-color: #f5f3f3
+  width: 360px
+  &-text
+    border-bottom: 1px solid #e2e2e2
+    margin: 42px
+    text-align: right
+    &__subtotal
+      color: #4a4a4a
+      font-size: 11px
+      font-weight: 400
+      text-transform: uppercase
+      padding-bottom: 10px
+    &__grandtotal
+      color: #222222
+      font-size: 16px
+      font-weight: 700
+      text-transform: uppercase
+      padding-bottom: 20px
+      &_vol
+        color: $SiteColor
+  &__button
+    color: #ffffff
+    font-size: 16px
+    font-weight: 700
+    text-transform: uppercase
+    padding: 20px 42px
+    background-color: $SiteColor
+    margin-left: 42px
+    transition: all 0.8s
+  &__button:hover
+    color: $SiteColor
+    background-color: #ffffff
+
+
+
 
 
