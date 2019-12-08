@@ -1475,6 +1475,7 @@ details .sidebar-caret-up {
 }
 .cart-items-box__block_1:hover {
   transform: translate(120px, 30px) scale(1.7);
+  background-color: #ffffff;
 }
 .cart-items-box__block:last-of-type:hover {
   border: 1px solid #eaeaea;
@@ -1492,6 +1493,9 @@ details .sidebar-caret-up {
   text-transform: uppercase;
   padding: 10px 0 38px 0;
   display: block;
+}
+.cart-items-box__h:hover {
+  color: #f16d7f;
 }
 .cart-items-box__txt {
   color: #575757;
