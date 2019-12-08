@@ -1194,14 +1194,11 @@ details .sidebar-caret-up
   width: 640px
   display: flex
   flex-direction: column
-/*    align-items: center*/
-
 
 .description-text 
   text-align: center
 
-
-.description-text__stars 
+.description-text__stars
   color: #f1b746
   font-size: 19px
   font-weight: 400
@@ -1233,9 +1230,6 @@ details .sidebar-caret-up
   padding-top: 26px
   padding-bottom: 26px
 
-
-
-
 .description-text__h3 
   color: #b9b9b9
   font-size: 14px
@@ -1243,27 +1237,21 @@ details .sidebar-caret-up
   text-transform: uppercase
   padding-left: 44px
 
-
 .description-text__h3_color 
   color: #2f2f2f
   font-size: 14px
   font-weight: 700
   text-transform: uppercase
 
-
-.description-text__price 
+.description-text__price
   color: #ef5b70
   font-size: 24px
   font-weight: 700
   padding: 38px 0
 
-
 .description-text__border 
   border-top: 1px solid #eaeaea
-  /*background-color: #ef5b70*/
   padding-right: 40px
-
-
 
 .description-text__border_color 
   border-top: 3px solid #ef5b70
@@ -1273,8 +1261,6 @@ details .sidebar-caret-up
 .description-text__hr 
   border: 1px solid #eaeaea
   padding-right: 100%
-
-
 
 .description-form
   display: flex
@@ -1314,6 +1300,7 @@ details .sidebar-caret-up
     background-color: #ef5b70
     color: #fff
 
+
 .items__stars
   color: #e4af48
   font-size: 15px
@@ -1340,31 +1327,23 @@ details .sidebar-caret-up
   color: #ffffff
   font-size: 12px
   font-weight: 700
-
   letter-spacing: 0.3px
   padding: 0 4px
-
-
 
 .header-cart__list 
   list-style-type: none
 
-
 .header-cart__wrap:hover .header-cart__drop
   display: flex
 
-
-
 .header-cart__list:hover .drop 
   display: flex
-
 
 .cart-item__h 
   color: #222222
   font-size: 12px
   font-weight: 700
   text-transform: uppercase
-
 
 .cart-item__quantity 
   color: $SiteColor
@@ -1373,7 +1352,6 @@ details .sidebar-caret-up
   text-transform: uppercase
   padding-top: 12px
 
-
 .cart-item 
   display: flex
   width: 230px
@@ -1381,9 +1359,6 @@ details .sidebar-caret-up
   padding-bottom: 16px
   padding-top: 16px
   position: relative
-
-
-
 
 .cart-item__txt 
   padding-left: 14px
@@ -1411,6 +1386,9 @@ details .sidebar-caret-up
   font-size: 16px
   font-weight: 400
   text-transform: uppercase
+
+.cart-item__times-link:hover
+  color: $SiteColor
 
 
 .cart-total 
@@ -1483,9 +1461,17 @@ details .sidebar-caret-up
     font-size: 13px
     font-weight: 400
     justify-content: center
+    transition: all 0.5s
     &_1
       flex-grow: 1
       justify-content: flex-start
+      &:hover
+        transform: translate(120px, 30px) scale(1.7)
+
+  &__block:last-of-type:hover
+     border: 1px solid #eaeaea
+     transform: rotate(20deg)
+     background-color: #eee
   &__img
     width: 100px
     padding-right: 10px
@@ -1495,7 +1481,6 @@ details .sidebar-caret-up
     font-weight: 400
     text-transform: uppercase
     padding: 10px 0 38px 0
-
     display: block
   &__txt
     color: #575757
@@ -1548,7 +1533,6 @@ details .sidebar-caret-up
     display: block
     margin-bottom: 10px
   &__field
-     //color: #b1b1b1
      font-size: 13px
      font-weight: 300
      padding: 10px 0
