@@ -14,6 +14,7 @@ body
 
 a
   text-decoration: none
+  color: #b2b2b2
 
 .clearfix::after
   content: ""
@@ -571,31 +572,28 @@ a
   margin-bottom: 40px
 
 
-.fab
-  color: #b2b2b2
-  font-size: 16px
-  font-weight: 400
-  letter-spacing: 0.4px
-  padding: 8px 12px
-  background-color: #fff
-  margin: 0 5px
-  text-align: center
-
-
-.fab:hover
-  background-color: $SiteColor
-  color: #ffffff
-
-
-.fab_active
-  background-color: $SiteColor
-  color: #fff
-
-
 .icons
   display: flex
   width: 560px
   justify-content: flex-end
+  align-items: center
+
+.social
+  display: flex
+  justify-content: center
+  align-items: center
+  background-color: #ffffff
+  width: 32px
+  height: 32px
+  margin-left: 8px
+  color: #b2b2b2
+
+  &:hover
+    background-color: $SiteColor
+    color: #fff
+
+    & a
+      color: #fff
 
 
 .breadcrumb
@@ -1316,6 +1314,9 @@ details .sidebar-caret-up
   font-weight: 700
   text-transform: uppercase
 
+  &:hover
+    color: $SiteColor
+
 .cart-item__quantity
   color: $SiteColor
   font-size: 12px
@@ -1685,6 +1686,9 @@ details .sidebar-caret-up
     font-weight: 400
     padding-bottom: 12px
     display: block
+
+    &:hover
+      color: $SiteColor
 
     &_big
       color: $SiteBlack
